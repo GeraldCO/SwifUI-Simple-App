@@ -3,7 +3,7 @@
 -
 |   Character List Screen:  |  
 | :-----------------------: | 
-| ![fetching_more_people](https://github.com/GeraldCO/SwifUI-Simple-App/blob/main/249622861-7dd91e21-e2a1-4b1c-941c-8cb35d7f7daa.png)
+| ![56602b8e-e39b-459b-b931-7f0cd3b8e26b](https://github.com/GeraldCO/SwifUI-Simple-App/assets/32046870/b4b3ab6f-0e8d-4c7c-ad47-1ddc89bf37e4)
 
 -
 ### About
