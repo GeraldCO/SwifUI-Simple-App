@@ -18,6 +18,14 @@
 		74FBFD8E2A66343900C06BCF /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBFD8D2A66343900C06BCF /* Coordinator.swift */; };
 		74FBFD902A6634AB00C06BCF /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBFD8F2A6634AB00C06BCF /* Router.swift */; };
 		74FBFD942A66379900C06BCF /* PeopleUseCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBFD932A66379900C06BCF /* PeopleUseCases.swift */; };
+		74FBFD972A6638E200C06BCF /* RootApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBFD962A6638E200C06BCF /* RootApp.swift */; };
+		74FBFD992A66391D00C06BCF /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBFD982A66391D00C06BCF /* Destination.swift */; };
+		74FBFD9D2A663A9100C06BCF /* PeopleDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBFD9C2A663A9100C06BCF /* PeopleDetailScreen.swift */; };
+		74FBFD9F2A663AA600C06BCF /* PeopleDetailScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBFD9E2A663AA600C06BCF /* PeopleDetailScreenCoordinator.swift */; };
+		74FBFDA12A663ABF00C06BCF /* PeopleDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBFDA02A663ABF00C06BCF /* PeopleDetailViewModel.swift */; };
+		74FBFDA32A663B6800C06BCF /* PeopleListScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBFDA22A663B6800C06BCF /* PeopleListScreenCoordinator.swift */; };
+		74FBFDA52A663B7900C06BCF /* PeopleListScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBFDA42A663B7900C06BCF /* PeopleListScreenView.swift */; };
+		74FBFDA72A663B9600C06BCF /* PeopleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBFDA62A663B9600C06BCF /* PeopleListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +41,14 @@
 		74FBFD8D2A66343900C06BCF /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		74FBFD8F2A6634AB00C06BCF /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		74FBFD932A66379900C06BCF /* PeopleUseCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleUseCases.swift; sourceTree = "<group>"; };
+		74FBFD962A6638E200C06BCF /* RootApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootApp.swift; sourceTree = "<group>"; };
+		74FBFD982A66391D00C06BCF /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		74FBFD9C2A663A9100C06BCF /* PeopleDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDetailScreen.swift; sourceTree = "<group>"; };
+		74FBFD9E2A663AA600C06BCF /* PeopleDetailScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDetailScreenCoordinator.swift; sourceTree = "<group>"; };
+		74FBFDA02A663ABF00C06BCF /* PeopleDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDetailViewModel.swift; sourceTree = "<group>"; };
+		74FBFDA22A663B6800C06BCF /* PeopleListScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleListScreenCoordinator.swift; sourceTree = "<group>"; };
+		74FBFDA42A663B7900C06BCF /* PeopleListScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleListScreenView.swift; sourceTree = "<group>"; };
+		74FBFDA62A663B9600C06BCF /* PeopleListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +85,8 @@
 				74FBFD7E2A66327400C06BCF /* Domain */,
 				74FBFD7F2A66327F00C06BCF /* Views */,
 				74FBFD832A66330900C06BCF /* Common */,
+				74FBFD962A6638E200C06BCF /* RootApp.swift */,
+				74FBFD982A66391D00C06BCF /* Destination.swift */,
 				74180EE12A662CCE005C1BD3 /* SwiftUI_simple_applicationApp.swift */,
 				74180EE32A662CCE005C1BD3 /* ContentView.swift */,
 				74180EE52A662CCF005C1BD3 /* Assets.xcassets */,
@@ -106,6 +124,8 @@
 		74FBFD7F2A66327F00C06BCF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				74FBFD9B2A663A4D00C06BCF /* PeopleListScreen */,
+				74FBFD9A2A663A3100C06BCF /* DetailScreen */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -150,6 +170,26 @@
 				74FBFD932A66379900C06BCF /* PeopleUseCases.swift */,
 			);
 			path = UseCases;
+			sourceTree = "<group>";
+		};
+		74FBFD9A2A663A3100C06BCF /* DetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				74FBFD9C2A663A9100C06BCF /* PeopleDetailScreen.swift */,
+				74FBFD9E2A663AA600C06BCF /* PeopleDetailScreenCoordinator.swift */,
+				74FBFDA02A663ABF00C06BCF /* PeopleDetailViewModel.swift */,
+			);
+			path = DetailScreen;
+			sourceTree = "<group>";
+		};
+		74FBFD9B2A663A4D00C06BCF /* PeopleListScreen */ = {
+			isa = PBXGroup;
+			children = (
+				74FBFDA22A663B6800C06BCF /* PeopleListScreenCoordinator.swift */,
+				74FBFDA42A663B7900C06BCF /* PeopleListScreenView.swift */,
+				74FBFDA62A663B9600C06BCF /* PeopleListViewModel.swift */,
+			);
+			path = PeopleListScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,13 +263,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				74FBFD902A6634AB00C06BCF /* Router.swift in Sources */,
+				74FBFDA72A663B9600C06BCF /* PeopleListViewModel.swift in Sources */,
+				74FBFD9D2A663A9100C06BCF /* PeopleDetailScreen.swift in Sources */,
 				74FBFD872A6633A600C06BCF /* PeopleDTO.swift in Sources */,
+				74FBFD992A66391D00C06BCF /* Destination.swift in Sources */,
+				74FBFDA52A663B7900C06BCF /* PeopleListScreenView.swift in Sources */,
+				74FBFDA12A663ABF00C06BCF /* PeopleDetailViewModel.swift in Sources */,
 				74FBFD822A6632CB00C06BCF /* APIManager.swift in Sources */,
+				74FBFD972A6638E200C06BCF /* RootApp.swift in Sources */,
+				74FBFDA32A663B6800C06BCF /* PeopleListScreenCoordinator.swift in Sources */,
 				74FBFD8E2A66343900C06BCF /* Coordinator.swift in Sources */,
 				74FBFD942A66379900C06BCF /* PeopleUseCases.swift in Sources */,
 				74180EE42A662CCE005C1BD3 /* ContentView.swift in Sources */,
 				74180EE22A662CCE005C1BD3 /* SwiftUI_simple_applicationApp.swift in Sources */,
 				74FBFD8A2A6633DC00C06BCF /* People.swift in Sources */,
+				74FBFD9F2A663AA600C06BCF /* PeopleDetailScreenCoordinator.swift in Sources */,
 				74FBFD852A66333200C06BCF /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
