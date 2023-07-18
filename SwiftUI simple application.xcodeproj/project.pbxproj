@@ -17,6 +17,7 @@
 		74FBFD8A2A6633DC00C06BCF /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBFD892A6633DC00C06BCF /* People.swift */; };
 		74FBFD8E2A66343900C06BCF /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBFD8D2A66343900C06BCF /* Coordinator.swift */; };
 		74FBFD902A6634AB00C06BCF /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBFD8F2A6634AB00C06BCF /* Router.swift */; };
+		74FBFD942A66379900C06BCF /* PeopleUseCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBFD932A66379900C06BCF /* PeopleUseCases.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		74FBFD892A6633DC00C06BCF /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
 		74FBFD8D2A66343900C06BCF /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		74FBFD8F2A6634AB00C06BCF /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		74FBFD932A66379900C06BCF /* PeopleUseCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleUseCases.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 		74FBFD912A66350000C06BCF /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
+				74FBFD932A66379900C06BCF /* PeopleUseCases.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				74FBFD872A6633A600C06BCF /* PeopleDTO.swift in Sources */,
 				74FBFD822A6632CB00C06BCF /* APIManager.swift in Sources */,
 				74FBFD8E2A66343900C06BCF /* Coordinator.swift in Sources */,
+				74FBFD942A66379900C06BCF /* PeopleUseCases.swift in Sources */,
 				74180EE42A662CCE005C1BD3 /* ContentView.swift in Sources */,
 				74180EE22A662CCE005C1BD3 /* SwiftUI_simple_applicationApp.swift in Sources */,
 				74FBFD8A2A6633DC00C06BCF /* People.swift in Sources */,
